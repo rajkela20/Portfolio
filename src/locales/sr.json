@@ -1,0 +1,38 @@
+{
+    "nav" :{
+        "home": "Početna",
+        "about": "O meni",
+        "projects": "Projekti",
+        "contact": "Kontakt"
+    },
+
+    "h1": {
+      "mojeime": "Dušan Rajić"
+    },
+
+
+  "hero": {
+    "title": "Zdravo, ja sam Dušan!",
+    "subtitle": "Iskusni web developer sa iskustvom u ReactJS.\nVešt u kreiranju intuitivnih, responzivnih i funkcionalnih korisničkih interfejsa."
+  },
+
+  "about": {
+    "gettoknow": "Upoznajmo se",
+    "desc": "Inovativni front-end programer sa trogodišnjim iskustvom u izgradnji responzivnih, visokih performansi veb aplikacija koristeći Vue i React. Strastven sam u razvoju dizajna usmerenog na korisnika, koristeći naprednu tehnologiju za rešavanje problema. Trenutno studiram na Moskovskom Nacionalnom univerzitetu nauke i tehnologije MISiS po specijalnosti Informatika i Računarska tehnika."
+  },
+
+  "contact": {
+    "title": "Kontaktiraj me",
+    "name": "Tvoje ime",
+    "email": "Tvoj email",
+    "message": "Tvoja poruka",
+    "button": "Pošalji poruku"
+  },
+  
+   "toggle_lang": {
+    "label": "Jezik",
+    "en": "Engleski",
+    "sr": "Srpski",
+    "ru": "Ruski"
+   }
+}

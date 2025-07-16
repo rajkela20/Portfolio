@@ -1,0 +1,25 @@
+{
+  "h1": {
+    "mojeime": "Dusan Rajic"
+  },
+  "nav": {
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Hi, I'm Dusan!",
+    "subtitle": "Experienced web developer specializing in ReactJS.\nBuilding fast, modern, and user-friendly web applications."
+  },
+  "about": {
+    "gettoknow": "Get to know me",
+    "desc": "Innovative Front-End Developer with 3 years of expertise in building responsive, high-performance web applications using Vue and React. Passionate about merging user-centric design with cutting-edge technology to solve complex problems. Currently studying in Moscow's National University of Science and Technology MISiS for a degree in Informatics and Computer Engineering."
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "name": "Your Name",
+    "email": "somebody@gmail.com",
+    "message": "Your Message",
+    "button": "Send Message"
+  }
+}
