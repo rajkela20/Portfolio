@@ -7,6 +7,7 @@ import './index.scss';
 import '@fontsource/inter/400.css'; //regular
 import '@fontsource/inter/700.css'; //bold
 
+
 export default function App() {
   const [darkMode, setDarkMode] = useState(true);
 
@@ -15,7 +16,7 @@ export default function App() {
       id: 1,
       title: "Movie Website",
       description: "A modern movie discovery site built with ReactJS, Tailwind CSS, HTML, and an external API to show trending films.",
-      image: "movies.jpg",
+      image: "/movies.jpg",
       link: "https://github.com/rajkela20/MovieSite",
       tech: ["HTML", "CSS", "JavaScript", "React", "TailwindCSS", "Node.js", "API"]
     },
@@ -23,15 +24,15 @@ export default function App() {
       id: 2,
       title: "Portfolio Site",
       description: "A personal portfolio made with Next.js and Tailwind CSS, featuring smooth animations and responsive design.",
-      image: "portfolios.jpg",
-      link: ".",
+      image: "/portfolios.jpg",
+      link: "https://github.com/rajkela20/Portfolio?tab=readme-ov-file",
       tech: ["HTML", "TailwindCSS", "JavaScript", "React", "SCSS", "NodeJS"]
     },
     {
       id: 3, 
       title: "FastEat",
       description: "A website created to make it easier for you to find your favorite dish recipes. Technologies used: HTML, SCSS, NodeJS, React, MySQL",
-      image: "fasteat.jpg",
+      image: "/fasteat.jpg",
       link: "https://github.com/rajkela20/FastEat",
       tech: ["HTML", "SCSS", "JavaScript", "React", "SCSS", "MySQL", "NodeJS", "API"]
     }
