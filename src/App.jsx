@@ -322,7 +322,7 @@ useEffect(() => {
       >
         <div className="h-48 bg-gray-800/50 relative overflow-hidden">
           <img 
-            src={`/public/${project.image}`} 
+            src={`/${project.image}`} 
             alt={project.title}
             className="w-full h-full object-cover"
           />
