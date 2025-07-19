@@ -9,7 +9,7 @@ import '@fontsource/inter/700.css'; //bold
 
 
 export default function App() {
-  const [darkMode, setDarkMode] = useState(true);
+  const [darkMode, setDarkMode] = useState(false);
 
   const projects = [
     {
@@ -57,6 +57,15 @@ useEffect(() => {
           <div id="stars3"></div>
         </div>
       )}
+
+       {/* Day sky background with clouds - visible in dark mode 
+    {darkMode && (
+      <div className="day-background fixed inset-0 -z-10 overflow-hidden">
+        <div className="cloud cloud1"></div>
+        <div className="cloud cloud2"></div>
+        <div className="cloud cloud3"></div>
+      </div>
+    )} */}
       
       <div className={`relative z-10 ${darkMode ? 'dark' : ''}`}>
       {/* Header */}
@@ -123,17 +132,15 @@ useEffect(() => {
 </header>
       
       {/* Hero */}
-      
-{/* Hero Section with Inter Font */}
 <section className="h-screen flex flex-col justify-center items-center text-center px-4">
   <motion.div 
     initial={{ opacity: 0 }}
     animate={{ opacity: 1 }}
-    transition={{ duration: 0.5 }}
+    transition={{ duration: 0.1 }}
     whileHover={{ scale: 1.03 }}
     className="space-y-6 bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-8 max-w-2xl mx-auto shadow-md hover:shadow-lg transition-all"
   >
-    {/* Name/Title with Inter */}
+ 
     <motion.h1
       initial={{ opacity: 0, y: -20 }}
       animate={{ opacity: 1, y: 0 }}
@@ -308,14 +315,14 @@ useEffect(() => {
         key={idx}
         initial={{ opacity: 0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.6 }}
+        transition={{ duration: 0.1 }}
         viewport={{ once: true }}
-        whileHover={{ scale: 1.02 }}
+        whileHover={{ scale: 1.10 }}
         className=" font-inter bg-white/10 backdrop-blur-md border border-white/20 rounded-xl overflow-hidden hover:shadow-lg transition-all"
       >
         <div className="h-48 bg-gray-800/50 relative overflow-hidden">
           <img 
-            src={`/assets/${project.image}`} 
+            src={`/public/${project.image}`} 
             alt={project.title}
             className="w-full h-full object-cover"
           />
