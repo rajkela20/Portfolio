@@ -22,11 +22,11 @@ export default function App() {
     },
     {
       id: 2,
-      title: "Portfolio Site",
-      description: "A personal portfolio made with Next.js and Tailwind CSS, featuring smooth animations and responsive design.",
+      title: "Tattoo Studio Ranko",
+      description: "A modern and responsive website made for a Tattoo Studio business. Designed interactive scheduling functionalities, enabling users to complete bookings in just a few clicks. ",
       image: "/portfolios.jpg",
-      link: "https://github.com/rajkela20/Portfolio?tab=readme-ov-file",
-      tech: ["HTML", "TailwindCSS", "JavaScript", "React", "SCSS", "NodeJS"]
+      link: "https://github.com/rajkela20/Tattoo-Studio",
+      tech: ["HTML", "TailwindCSS", "JavaScript", "React", "SCSS", "NodeJS", "MySQL"]
     },
     {
       id: 3, 
