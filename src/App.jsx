@@ -24,7 +24,7 @@ export default function App() {
       id: 2,
       title: "Tattoo Studio Ranko",
       description: "A modern and responsive website made for a Tattoo Studio business. Designed interactive scheduling functionalities, enabling users to complete bookings in just a few clicks. ",
-      image: "/portfolios.jpg",
+      image: "/tattooo.jpg",
       link: "https://github.com/rajkela20/Tattoo-Studio",
       tech: ["HTML", "TailwindCSS", "JavaScript", "React", "SCSS", "NodeJS", "MySQL"]
     },
